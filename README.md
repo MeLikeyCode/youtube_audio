@@ -8,7 +8,7 @@ from youtube_audio import YouTubeAudioPlayer
 url = "https://www.youtube.com/watch?v=W-P_ShiZqvg" # Lucky I'm in love with my best friend, dah dah dah dah, dah dah, dah
 
 player = YouTubeAudioPlayer(url)
-player.play() # play from the beginning
+player.play() # play from the beginning (plays in the background)
 player.play(50) # now, skip to the 50 second mark and play from there
 player.play(10) # now, skip to the 10 second mark and play from there
 player.stop() # stop playing (cleans up resources as well)
